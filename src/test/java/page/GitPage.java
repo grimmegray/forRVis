@@ -29,7 +29,7 @@ public class GitPage {
     public void checkArticlesSize() {
         $x(profile).click();
         $x(myFav).click();
-        for (int i=0; i<10; i++) {
+        for (int i = 0; i < 10; i++) {
             if (articlesInFavMass.get(i).isDisplayed()) {
                 favActiveButtonInMyFav.get(i).click();
             }
